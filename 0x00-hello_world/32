@@ -1,0 +1,36 @@
+6-size.c: In function ‘main’:
+6-size.c:17:28: warning: format ‘%lu’ expects argument of type ‘long unsigned int’, but argument 2 has type ‘unsigned int’ [-Wformat=]
+   17 |  printf("Size of a char: %lu byte(s)\n", sizeof(c));
+      |                          ~~^             ~~~~~~~~~
+      |                            |             |
+      |                            |             unsigned int
+      |                            long unsigned int
+      |                          %u
+6-size.c:18:28: warning: format ‘%lu’ expects argument of type ‘long unsigned int’, but argument 2 has type ‘unsigned int’ [-Wformat=]
+   18 |  printf("Size of an int: %lu byte(s)\n", sizeof(i));
+      |                          ~~^             ~~~~~~~~~
+      |                            |             |
+      |                            |             unsigned int
+      |                            long unsigned int
+      |                          %u
+6-size.c:19:32: warning: format ‘%lu’ expects argument of type ‘long unsigned int’, but argument 2 has type ‘unsigned int’ [-Wformat=]
+   19 |  printf("Size of a long int: %lu byte(s)\n", sizeof(li));
+      |                              ~~^             ~~~~~~~~~~
+      |                                |             |
+      |                                |             unsigned int
+      |                                long unsigned int
+      |                              %u
+6-size.c:20:37: warning: format ‘%lu’ expects argument of type ‘long unsigned int’, but argument 2 has type ‘unsigned int’ [-Wformat=]
+   20 |  printf("Size of a long long int: %lu byte(s)\n", sizeof(lli));
+      |                                   ~~^             ~~~~~~~~~~~
+      |                                     |             |
+      |                                     |             unsigned int
+      |                                     long unsigned int
+      |                                   %u
+6-size.c:21:29: warning: format ‘%lu’ expects argument of type ‘long unsigned int’, but argument 2 has type ‘unsigned int’ [-Wformat=]
+   21 |  printf("Size of a float: %lu byte(s)\n", sizeof(f));
+      |                           ~~^             ~~~~~~~~~
+      |                             |             |
+      |                             |             unsigned int
+      |                             long unsigned int
+      |                           %u
